@@ -10,7 +10,7 @@ npm install hex-stream
 
 ## Usage
 
-A simple demo convert stdin to hex encoded string in `data.txt`:
+A simple demo to convert input from stdin to hex encoded string in `data.txt`:
 
 ```js
 const { HexEncoder, HexDecoder } = require('hex-stream');
