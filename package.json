@@ -1,0 +1,14 @@
+{
+  "name": "hex-stream",
+  "version": "0.1.0",
+  "description": "Simple hex encoding or decoding stream utilities",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DCsunset",
+  "license": "MIT"
+}
