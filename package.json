@@ -1,13 +1,13 @@
 {
   "name": "hex-stream",
   "version": "0.1.0",
-  "description": "Simple hex encoding or decoding stream utilities",
+  "description": "Simple hex encoder and decoder stream in node.js",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "author": "DCsunset",
   "license": "MIT"
