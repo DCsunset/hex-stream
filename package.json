@@ -9,6 +9,15 @@
   "scripts": {
     "test": "node test/test.js"
   },
+  "keywords": [
+    "node.js",
+    "hex",
+    "stream"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCsunset/hex-stream"
+  },
   "author": "DCsunset",
   "license": "MIT"
 }
