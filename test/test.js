@@ -16,7 +16,7 @@ const encodeResult = hexEncoder.read().toString('ascii');
 assert(hexData === encodeResult);
 
 
-for (let i = 0; i < 2*length; i += 1)
-	hexDecoder.write(hexData.slice(i*2, (i+1)*2));
+for (let i = 0; i < 2*length; ++i)
+	hexDecoder.write(hexData.slice(i, i+1));
 const decodeResult = hexDecoder.read();
 assert(data.equals(decodeResult));
